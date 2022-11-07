@@ -24,7 +24,7 @@ contract Ownable{
 
 
  //setting the newOwner this function only called by the current owner of this contract
- function setOwner(address _newOwner)external onlyOwner(_newOwner){
+ function setOwner(address _newOwner) external onlyOwner(_newOwner){
 
      owner = _newOwner;
 
